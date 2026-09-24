@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 75" fill="none">
+  <defs>
+    <linearGradient id="gMark1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2ecc71"/>
+      <stop offset="50%" style="stop-color:#1abc9c"/>
+      <stop offset="100%" style="stop-color:#2980b9"/>
+    </linearGradient>
+    <linearGradient id="gMark2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#27ae60"/>
+      <stop offset="100%" style="stop-color:#16a085"/>
+    </linearGradient>
+  </defs>
+  <!-- Top shape -->
+  <polygon points="45,0 90,25 45,25" fill="url(#gMark1)" opacity="0.9"/>
+  <!-- Middle shape -->
+  <polygon points="0,25 45,25 45,50 22.5,37.5" fill="#2980b9" opacity="0.85"/>
+  <polygon points="45,25 90,25 67.5,37.5 45,50" fill="url(#gMark1)" opacity="0.95"/>
+  <!-- Bottom shape -->
+  <polygon points="22.5,37.5 45,50 45,75 0,50" fill="#1a6b4a" opacity="0.8"/>
+  <polygon points="45,50 67.5,37.5 90,50 45,75" fill="url(#gMark2)" opacity="0.9"/>
+  <!-- Arrow/Play element -->
+  <polygon points="35,30 55,42 35,54" fill="white" opacity="0.95"/>
+</svg>
