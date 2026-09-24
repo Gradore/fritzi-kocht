@@ -1,7 +1,6 @@
 import { Link } from "@tanstack/react-router";
-import { ExternalLink, Instagram, MessageCircle, Phone, Mail, Heart } from "lucide-react";
+import { ExternalLink, Instagram, MessageCircle, Phone, Mail } from "lucide-react";
 import logoAsset from "@/assets/fritzi-wordmark.png.asset.json";
-import gradoreAsset from "@/assets/gradore-logo.png.asset.json";
 import {
   waLink,
   DEFAULT_WA_MESSAGE,
@@ -92,22 +91,21 @@ export function Footer() {
           <p className="text-xs text-cream order-2 md:order-1">© 2026 Fritzi kocht</p>
 
           <a
-            href="https://gradore.de"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Gebaut von Gradore UG – zur Gradore Website"
-            className="order-1 md:order-2 group inline-flex items-center gap-3 bg-cream text-navy px-6 py-3 rounded-full hover:bg-gold-soft transition-colors shadow-[0_2px_20px_-10px_rgba(0,0,0,0.5)]"
-          >
-            <span className="text-sm font-medium tracking-wide">Gebaut von</span>
-            <span className="font-serif text-xl md:text-2xl font-bold tracking-tight">Gradore UG</span>
-            <span className="inline-flex items-center gap-1 text-sm font-medium">
-              mit <Heart className="w-4 h-4 fill-current text-red-500" aria-hidden="true" />
-            </span>
-          </a>
+                    href="https://gradore.de/?utm_source=client_footer&utm_medium=referral&utm_campaign=made_by_gradore"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Made by Gradore – Webdesign aus Rostock"
+                    data-gradore-credit="true"
+                    style={{ display: "inline-flex", alignItems: "center", gap: "0.55rem", color: "inherit", textDecoration: "none", fontSize: "0.75rem", fontWeight: 700, letterSpacing: "0.06em" }}
+                  >
+                    <img src="/gradore-mark.svg" alt="Gradore Logo" width="30" height="25" loading="lazy" decoding="async" style={{ width: "30px", height: "25px", objectFit: "contain" }} />
+                    <span>Made by Gradore</span>
+                  </a>
 
         </div>
       </div>
     </footer>
   );
 }
+
 
