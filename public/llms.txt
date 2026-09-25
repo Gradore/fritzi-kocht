@@ -12,9 +12,9 @@
 
 ## Seiten
 
-- [Startseite](https://fritz.gradore.de/): Leistungen, Ablauf, Über Fritzi, Galerie, FAQ und Kontakt auf einer Seite.
-- [Impressum](https://fritz.gradore.de/impressum): Anbieterkennzeichnung nach § 5 TMG.
-- [Datenschutz](https://fritz.gradore.de/datenschutz): Datenschutzerklärung nach DSGVO.
+- [Startseite](https://fritzi-kocht.de/): Leistungen, Ablauf, Über Fritzi, Galerie, FAQ und Kontakt auf einer Seite.
+- [Impressum](https://fritzi-kocht.de/impressum): Anbieterkennzeichnung nach § 5 TMG.
+- [Datenschutz](https://fritzi-kocht.de/datenschutz): Datenschutzerklärung nach DSGVO.
 
 ## Kontakt & Buchung
 

@@ -11,10 +11,10 @@ export const Route = createFileRoute("/datenschutz")({
       { property: "og:title", content: "Datenschutz – Fritzi kocht" },
       { property: "og:description", content: "Datenschutzerklärung von Fritzi kocht: Verarbeitung von Anfragen für Privatkoch- und Catering-Termine per Kontaktformular, E-Mail und WhatsApp." },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://fritz.gradore.de/datenschutz" },
+      { property: "og:url", content: "https://fritzi-kocht.de/datenschutz" },
       { property: "og:locale", content: "de_DE" },
     ],
-    links: [{ rel: "canonical", href: "https://fritz.gradore.de/datenschutz" }],
+    links: [{ rel: "canonical", href: "https://fritzi-kocht.de/datenschutz" }],
   }),
 
   component: Datenschutz,

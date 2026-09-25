@@ -11,10 +11,10 @@ export const Route = createFileRoute("/impressum")({
       { property: "og:title", content: "Impressum – Fritzi kocht" },
       { property: "og:description", content: "Impressum von Fritzi kocht – Privatkoch & Catering. Anbieterkennzeichnung nach § 5 TMG." },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://fritz.gradore.de/impressum" },
+      { property: "og:url", content: "https://fritzi-kocht.de/impressum" },
       { property: "og:locale", content: "de_DE" },
     ],
-    links: [{ rel: "canonical", href: "https://fritz.gradore.de/impressum" }],
+    links: [{ rel: "canonical", href: "https://fritzi-kocht.de/impressum" }],
   }),
 
   component: Impressum,

@@ -14,7 +14,7 @@ import { Footer } from "@/components/sections/Footer";
 import heroImg from "@/assets/fritzi/kaese-obst-brett-rustikal-im-garten.jpg";
 
 
-const SITE_URL = "https://fritz.gradore.de";
+const SITE_URL = "https://fritzi-kocht.de";
 const OG_IMAGE = `${SITE_URL}/og-image.jpg`;
 const TITLE = "Fritzi kocht – Privatkoch & Catering, regional & saisonal";
 const DESC =
